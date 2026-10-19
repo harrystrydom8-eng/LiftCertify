@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Features | LiftCertify</title>
+  <meta name="description" content="Site inspections, dashboards, LMI approval and audit trail, NDT / MPI reports, customer portal, bulk load, PDF and email.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="LiftCertify home">
+        <svg class="brand-mark" viewBox="0 0 40 48" aria-hidden="true">
+          <path d="M8 2h24l6 8v34a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10z" fill="#13579B"/>
+          <circle cx="20" cy="10" r="3.2" fill="none" stroke="#F2A900" stroke-width="2.4"/>
+          <path d="M11 28l7 7 12-14" fill="none" stroke="#F2A900" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand-name">Lift<span>Certify</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="features.html" aria-current="page">Features</a>
+        <a href="contact.html">Pricing</a>
+        <a class="btn btn-demo" href="contact.html#book">Book a demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Built around how inspections really happen</h1>
+        <p class="lead">On site, in the office and in front of the auditor. Here is what LiftCertify does at each stage.</p>
+      </div>
+    </section>
+
+    <div class="wrap">
+
+      <!-- 1 on site -->
+      <section class="split" id="on-site">
+        <div class="split-text">
+          <h2>Inspect on site, even without signal <span class="tag-soon">In development</span></h2>
+          <p>Inspectors work on a phone or tablet: pick the unit, tap OK or defect on each item, take photos and capture load test values. Everything is stored on the device and synchronised when there is coverage again, so work underground or on remote sites is never lost.</p>
+          <ul>
+            <li>One tap per checklist item, or a whole section at once</li>
+            <li>Photos and defect notes against the item they belong to</li>
+            <li>Inspector signs on screen</li>
+          </ul>
+        </div>
+        <div class="phone" aria-label="Example of the mobile checklist">
+          <div class="mock-bar">Chain block CB-2552852</div>
+          <div class="phone-offline">Offline. 12 items saved, will sync automatically.</div>
+          <div class="chk"><span>Hook and safety latch</span><span class="pills"><span class="pill ok">OK</span><span class="pill">Defect</span></span></div>
+          <div class="chk"><span>Load chain wear</span><span class="pills"><span class="pill ok">OK</span><span class="pill">Defect</span></span></div>
+          <div class="chk"><span>Brake holds load</span><span class="pills"><span class="pill ok">OK</span><span class="pill">Defect</span></span></div>
+          <div class="chk"><span>Chain guide and stripper</span><span class="pills"><span class="pill">OK</span><span class="pill bad">Defect</span></span></div>
+          <div class="chk"><span>Markings legible</span><span class="pills"><span class="pill ok">OK</span><span class="pill">Defect</span></span></div>
+        </div>
+      </section>
+
+      <!-- 2 dashboards -->
+      <section class="split reverse" id="dashboards">
+        <div class="split-text">
+          <h2>Dashboards and forecasts</h2>
+          <p>Each division opens on the numbers that matter this morning, compared with the same days last month.</p>
+          <ul>
+            <li>Certificates, pass rate and hours worked this month</li>
+            <li>Overdue units and certificates waiting for approval</li>
+            <li>Units falling due over the next three months</li>
+            <li>Customer overview: units, pass rate and last visit per client, exportable to Excel</li>
+          </ul>
+        </div>
+        <div class="mock" aria-label="Example of the customer overview">
+          <div class="mock-bar">Customer overview <small>Last 12 months</small></div>
+          <div class="mock-body">
+            <table class="mtable">
+              <thead><tr><th>Customer and site</th><th>Units</th><th>Pass rate</th><th>Overdue</th><th>Last visit</th></tr></thead>
+              <tbody>
+                <tr><td>Rosslyn Plant</td><td>214</td><td>97%</td><td><span class="badge bad">4</span></td><td>02 Oct 2026</td></tr>
+                <tr><td>Northern Shaft</td><td>131</td><td>92%</td><td><span class="badge ok">0</span></td><td>21 Sep 2026</td></tr>
+                <tr><td>Harbour Yard</td><td>88</td><td>99%</td><td><span class="badge ok">0</span></td><td>11 Oct 2026</td></tr>
+                <tr><td>Steel Works East</td><td>46</td><td>85%</td><td><span class="badge bad">2</span></td><td>30 Aug 2026</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 approval -->
+      <section class="split" id="approval">
+        <div class="split-text">
+          <h2>LMI approval and a full audit trail</h2>
+          <p>Certificates stay drafts, without a signature, until someone qualified approves them. LiftCertify checks that their registration is still valid on the day.</p>
+          <ul>
+            <li>LMIs approve lifting certificates, NDT Level 2 / 3 approve NDT reports</li>
+            <li>Changing an approved certificate removes the approval</li>
+            <li>Every creation, change, approval, print and email is logged with who and when</li>
+            <li>Roles per user: Admin, LMI, lifting tackle inspector, NDT technician, office, manager</li>
+          </ul>
+        </div>
+        <div class="mock" aria-label="Example of the approvals list and audit trail">
+          <div class="mock-bar">Waiting for your approval <small>3 certificates</small></div>
+          <div class="mock-body">
+            <table class="mtable">
+              <thead><tr><th>Certificate</th><th>Equipment</th><th>Inspector</th><th>Status</th></tr></thead>
+              <tbody>
+                <tr><td>FWS-218</td><td>Flat webbing sling</td><td>T. Molefe (LTI)</td><td><span class="badge wait">Draft</span></td></tr>
+                <tr><td>SH-077</td><td>Bow shackle</td><td>T. Molefe (LTI)</td><td><span class="badge wait">Draft</span></td></tr>
+                <tr><td>CB-0143</td><td>Chain block</td><td>K. le Grange</td><td><span class="badge wait">Draft</span></td></tr>
+              </tbody>
+            </table>
+            <div class="mock-line"></div>
+            <table class="mtable" aria-label="Audit trail">
+              <tbody>
+                <tr><td>15 Oct 14:02</td><td>K. le Grange</td><td>Approved CB-0142</td></tr>
+                <tr><td>15 Oct 13:47</td><td>K. le Grange</td><td>Changed SWL: 3 000 to 5 000</td></tr>
+                <tr><td>15 Oct 09:15</td><td>T. Molefe</td><td>Created CB-0142</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 NDT -->
+      <section class="split reverse" id="ndt">
+        <div class="split-text">
+          <h2>NDT and magnetic particle inspection reports</h2>
+          <p>A dedicated NDT division with MPI reports to ISO 9934-1: test parameters, every area tested with its result, photos with captions, and sign-off by the technician and a Level 2 / 3 approver.</p>
+          <ul>
+            <li>Test areas per equipment type, such as a truck mounted crane's booms, lugs and stabilisers</li>
+            <li>Technique, current, medium, lighting, field check and acceptance criteria</li>
+            <li>Technician scheme, level and certificate number on every report</li>
+          </ul>
+        </div>
+        <div class="mock" aria-label="Example of an MPI report">
+          <div class="mock-bar">Magnetic Particle Inspection Report <small>MPI-0031</small></div>
+          <div class="mock-body">
+            <table class="mtable">
+              <thead><tr><th>Area tested</th><th>Result</th><th>Indications</th></tr></thead>
+              <tbody>
+                <tr><td>Column to base weld</td><td><span class="badge ok">Accept</span></td><td>No relevant indications</td></tr>
+                <tr><td>Main boom pivot lugs</td><td><span class="badge ok">Accept</span></td><td>No relevant indications</td></tr>
+                <tr><td>Lift cylinder rod-end lugs</td><td><span class="badge bad">Reject</span></td><td>Linear indication, 12 mm, weld toe</td></tr>
+                <tr><td>Stabiliser beam welds</td><td><span class="badge na">Not tested</span></td><td>No access</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5 portal -->
+      <section class="split" id="portal">
+        <div class="split-text">
+          <h2>A portal for your clients <span class="tag-soon">In development</span></h2>
+          <p>Your clients' safety officers log in to download their approved certificates, check due dates and request the next inspection. They see only their own sites, under your company's logo.</p>
+          <ul>
+            <li>Approved certificates only, never drafts</li>
+            <li>Equipment register with due dates, exportable to Excel</li>
+            <li>Inspection requests go straight to your office</li>
+          </ul>
+        </div>
+        <div class="mock" aria-label="Example of the customer portal">
+          <div class="mock-bar">Rosslyn Plant <small>Equipment register</small></div>
+          <div class="mock-body">
+            <table class="mtable">
+              <thead><tr><th>Unit</th><th>Serial</th><th>Next due</th><th>Certificate</th></tr></thead>
+              <tbody>
+                <tr><td>Chain block 5 t</td><td>CB-2552852</td><td>14 Apr 2027</td><td><span class="badge ok">Valid</span></td></tr>
+                <tr><td>Flat webbing sling 2 t</td><td>FWS-0300</td><td>09 Jan 2027</td><td><span class="badge ok">Valid</span></td></tr>
+                <tr><td>Overhead crane 10 t</td><td>OHC-0012</td><td>02 Nov 2026</td><td><span class="badge wait">Due soon</span></td></tr>
+              </tbody>
+            </table>
+            <div class="mock-actions"><span class="mock-btn">Export to Excel</span><span class="mock-btn amber">Request inspection</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6 bulk load -->
+      <section class="split reverse" id="bulk">
+        <div class="split-text">
+          <h2>Bulk load, PDF and email</h2>
+          <p>Paste or import a site's slings and shackles from Excel, issue every certificate in one go, then send them with the job timesheet in a single email.</p>
+          <ul>
+            <li>Duplicate serial numbers caught before anything is saved</li>
+            <li>PDFs filed per company and customer automatically</li>
+            <li>Colour-coded inspection tags, with each client's own colour scheme</li>
+          </ul>
+        </div>
+        <div class="mock" aria-label="Example of a bulk load">
+          <div class="mock-bar">Bulk load <small>Endless round sling</small></div>
+          <div class="mock-body">
+            <table class="mtable">
+              <thead><tr><th>Serial</th><th>SWL</th><th>Length</th><th>Check</th></tr></thead>
+              <tbody>
+                <tr><td>WS-101</td><td>2 000 kg</td><td>3 m</td><td><span class="badge ok">New unit</span></td></tr>
+                <tr><td>WS-102</td><td>2 000 kg</td><td>3 m</td><td><span class="badge ok">New unit</span></td></tr>
+                <tr><td>WS-087</td><td>5 000 kg</td><td>4 m</td><td><span class="badge na">Existing unit</span></td></tr>
+                <tr><td>WS-101</td><td>2 000 kg</td><td>3 m</td><td><span class="badge bad">Duplicate</span></td></tr>
+              </tbody>
+            </table>
+            <div class="mock-actions"><span class="mock-btn">Print tags</span><span class="mock-btn">Timesheet</span><span class="mock-btn navy">Load 3 units</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- also included -->
+    <section class="section section-grey">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Also included</h2>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item"><h3>One unit register</h3><p>Each serial number is stored once, with its full certificate history, even when it moves between client sites.</p></div>
+          <div class="feature-item"><h3>Defects and re-inspections</h3><p>Any defect makes a certificate not issued. The re-inspection links back to it, so the repair trail is clear.</p></div>
+          <div class="feature-item"><h3>Standards and checklists</h3><p>Checklists per equipment type and inspection kind, with the standard printed on every certificate.</p></div>
+          <div class="feature-item"><h3>Load test criteria</h3><p>Load test certificates show measured values such as test load, hook openings and chain size, not a checklist.</p></div>
+          <div class="feature-item"><h3>Jobs and timesheets</h3><p>Travel, hours and client sign-off per site visit, linked to the certificates issued on that job.</p></div>
+          <div class="feature-item"><h3>Your branding</h3><p>Your logo, details and signatures on every certificate, report and email.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <div>
+        <h2>See it with your own equipment types</h2>
+        <p>We set the demo up with the equipment you inspect.</p>
+      </div>
+      <a class="btn btn-demo" href="contact.html#book">Book a demo</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>LiftCertify</h4>
+          <p>Certificate software for lifting equipment and NDT inspection companies.</p>
+        </div>
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Pricing</a></li>
+            <li><a href="contact.html#book">Book a demo</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="contact.html#contact">Contact</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; <span data-year>2026</span> LiftCertify. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
