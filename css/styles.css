@@ -419,6 +419,19 @@ h3 {
   vertical-align: middle;
 }
 
+.tag-available {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 3px 8px;
+  border-radius: 3px;
+  color: #145c3d;
+  background: #e3f2e9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
 .mock {
   overflow: hidden;
   border: 1px solid #cbd7df;
